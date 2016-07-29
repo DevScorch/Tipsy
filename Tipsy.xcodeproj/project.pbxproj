@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040B69981D4C0C1E00F25EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040B69971D4C0C1E00F25EE2 /* AppDelegate.swift */; };
+		040B699A1D4C0C1E00F25EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040B69991D4C0C1E00F25EE2 /* ViewController.swift */; };
+		040B699D1D4C0C1E00F25EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040B699B1D4C0C1E00F25EE2 /* Main.storyboard */; };
+		040B69A01D4C0C1E00F25EE2 /* Tipsy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 040B699E1D4C0C1E00F25EE2 /* Tipsy.xcdatamodeld */; };
+		040B69A21D4C0C1E00F25EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040B69A11D4C0C1E00F25EE2 /* Assets.xcassets */; };
+		040B69A51D4C0C1E00F25EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040B69A31D4C0C1E00F25EE2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		040B69941D4C0C1E00F25EE2 /* Tipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		040B69971D4C0C1E00F25EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		040B69991D4C0C1E00F25EE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		040B699C1D4C0C1E00F25EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040B699F1D4C0C1E00F25EE2 /* Tipsy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tipsy.xcdatamodel; sourceTree = "<group>"; };
+		040B69A11D4C0C1E00F25EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040B69A41D4C0C1E00F25EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040B69A61D4C0C1E00F25EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040B69911D4C0C1D00F25EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040B698B1D4C0C1D00F25EE2 = {
+			isa = PBXGroup;
+			children = (
+				040B69961D4C0C1E00F25EE2 /* Tipsy */,
+				040B69951D4C0C1E00F25EE2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		040B69951D4C0C1E00F25EE2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				040B69941D4C0C1E00F25EE2 /* Tipsy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		040B69961D4C0C1E00F25EE2 /* Tipsy */ = {
+			isa = PBXGroup;
+			children = (
+				040B69971D4C0C1E00F25EE2 /* AppDelegate.swift */,
+				040B69991D4C0C1E00F25EE2 /* ViewController.swift */,
+				040B699B1D4C0C1E00F25EE2 /* Main.storyboard */,
+				040B69A11D4C0C1E00F25EE2 /* Assets.xcassets */,
+				040B69A31D4C0C1E00F25EE2 /* LaunchScreen.storyboard */,
+				040B69A61D4C0C1E00F25EE2 /* Info.plist */,
+				040B699E1D4C0C1E00F25EE2 /* Tipsy.xcdatamodeld */,
+			);
+			path = Tipsy;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040B69931D4C0C1D00F25EE2 /* Tipsy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 040B69A91D4C0C1E00F25EE2 /* Build configuration list for PBXNativeTarget "Tipsy" */;
+			buildPhases = (
+				040B69901D4C0C1D00F25EE2 /* Sources */,
+				040B69911D4C0C1D00F25EE2 /* Frameworks */,
+				040B69921D4C0C1D00F25EE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tipsy;
+			productName = Tipsy;
+			productReference = 040B69941D4C0C1E00F25EE2 /* Tipsy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040B698C1D4C0C1D00F25EE2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Snowfallstudios;
+				TargetAttributes = {
+					040B69931D4C0C1D00F25EE2 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = V9669RC3VN;
+						DevelopmentTeamName = "Johan Sas";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 040B698F1D4C0C1D00F25EE2 /* Build configuration list for PBXProject "Tipsy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040B698B1D4C0C1D00F25EE2;
+			productRefGroup = 040B69951D4C0C1E00F25EE2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040B69931D4C0C1D00F25EE2 /* Tipsy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040B69921D4C0C1D00F25EE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040B69A51D4C0C1E00F25EE2 /* LaunchScreen.storyboard in Resources */,
+				040B69A21D4C0C1E00F25EE2 /* Assets.xcassets in Resources */,
+				040B699D1D4C0C1E00F25EE2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040B69901D4C0C1D00F25EE2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040B699A1D4C0C1E00F25EE2 /* ViewController.swift in Sources */,
+				040B69981D4C0C1E00F25EE2 /* AppDelegate.swift in Sources */,
+				040B69A01D4C0C1E00F25EE2 /* Tipsy.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		040B699B1D4C0C1E00F25EE2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040B699C1D4C0C1E00F25EE2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040B69A31D4C0C1E00F25EE2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040B69A41D4C0C1E00F25EE2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		040B69A71D4C0C1E00F25EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		040B69A81D4C0C1E00F25EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		040B69AA1D4C0C1E00F25EE2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tipsy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snowfallstudios..Tipsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		040B69AB1D4C0C1E00F25EE2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tipsy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.snowfallstudios..Tipsy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040B698F1D4C0C1D00F25EE2 /* Build configuration list for PBXProject "Tipsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040B69A71D4C0C1E00F25EE2 /* Debug */,
+				040B69A81D4C0C1E00F25EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		040B69A91D4C0C1E00F25EE2 /* Build configuration list for PBXNativeTarget "Tipsy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				040B69AA1D4C0C1E00F25EE2 /* Debug */,
+				040B69AB1D4C0C1E00F25EE2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		040B699E1D4C0C1E00F25EE2 /* Tipsy.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				040B699F1D4C0C1E00F25EE2 /* Tipsy.xcdatamodel */,
+			);
+			currentVersion = 040B699F1D4C0C1E00F25EE2 /* Tipsy.xcdatamodel */;
+			path = Tipsy.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 040B698C1D4C0C1D00F25EE2 /* Project object */;
+}
