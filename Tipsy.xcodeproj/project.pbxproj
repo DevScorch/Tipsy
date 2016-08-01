@@ -8,22 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		040B69981D4C0C1E00F25EE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040B69971D4C0C1E00F25EE2 /* AppDelegate.swift */; };
-		040B699A1D4C0C1E00F25EE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040B69991D4C0C1E00F25EE2 /* ViewController.swift */; };
+		040B699A1D4C0C1E00F25EE2 /* TipsyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040B69991D4C0C1E00F25EE2 /* TipsyVC.swift */; };
 		040B699D1D4C0C1E00F25EE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040B699B1D4C0C1E00F25EE2 /* Main.storyboard */; };
 		040B69A01D4C0C1E00F25EE2 /* Tipsy.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 040B699E1D4C0C1E00F25EE2 /* Tipsy.xcdatamodeld */; };
 		040B69A21D4C0C1E00F25EE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040B69A11D4C0C1E00F25EE2 /* Assets.xcassets */; };
 		040B69A51D4C0C1E00F25EE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040B69A31D4C0C1E00F25EE2 /* LaunchScreen.storyboard */; };
+		040B69B01D4C192500F25EE2 /* TipCalc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040B69AF1D4C192500F25EE2 /* TipCalc.swift */; };
+		04915B991D4FEEA2005BC55F /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04915B981D4FEEA2005BC55F /* MaterialView.swift */; };
+		04915B9C1D4FEF9A005BC55F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04915B9B1D4FEF9A005BC55F /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		040B69941D4C0C1E00F25EE2 /* Tipsy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tipsy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		040B69971D4C0C1E00F25EE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		040B69991D4C0C1E00F25EE2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		040B69991D4C0C1E00F25EE2 /* TipsyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsyVC.swift; sourceTree = "<group>"; };
 		040B699C1D4C0C1E00F25EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		040B699F1D4C0C1E00F25EE2 /* Tipsy.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tipsy.xcdatamodel; sourceTree = "<group>"; };
 		040B69A11D4C0C1E00F25EE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		040B69A41D4C0C1E00F25EE2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		040B69A61D4C0C1E00F25EE2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		040B69AF1D4C192500F25EE2 /* TipCalc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalc.swift; sourceTree = "<group>"; };
+		04915B981D4FEEA2005BC55F /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		04915B9B1D4FEF9A005BC55F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +62,12 @@
 		040B69961D4C0C1E00F25EE2 /* Tipsy */ = {
 			isa = PBXGroup;
 			children = (
+				04915B9A1D4FEF8F005BC55F /* Util */,
+				04915B971D4FEE8F005BC55F /* Material */,
+				040B69AC1D4C18C300F25EE2 /* Model */,
+				040B69AE1D4C18DC00F25EE2 /* Controller */,
+				040B69AD1D4C18D600F25EE2 /* View */,
 				040B69971D4C0C1E00F25EE2 /* AppDelegate.swift */,
-				040B69991D4C0C1E00F25EE2 /* ViewController.swift */,
 				040B699B1D4C0C1E00F25EE2 /* Main.storyboard */,
 				040B69A11D4C0C1E00F25EE2 /* Assets.xcassets */,
 				040B69A31D4C0C1E00F25EE2 /* LaunchScreen.storyboard */,
@@ -65,6 +75,45 @@
 				040B699E1D4C0C1E00F25EE2 /* Tipsy.xcdatamodeld */,
 			);
 			path = Tipsy;
+			sourceTree = "<group>";
+		};
+		040B69AC1D4C18C300F25EE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				040B69AF1D4C192500F25EE2 /* TipCalc.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		040B69AD1D4C18D600F25EE2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		040B69AE1D4C18DC00F25EE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				040B69991D4C0C1E00F25EE2 /* TipsyVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04915B971D4FEE8F005BC55F /* Material */ = {
+			isa = PBXGroup;
+			children = (
+				04915B981D4FEEA2005BC55F /* MaterialView.swift */,
+			);
+			name = Material;
+			sourceTree = "<group>";
+		};
+		04915B9A1D4FEF8F005BC55F /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				04915B9B1D4FEF9A005BC55F /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				040B699A1D4C0C1E00F25EE2 /* ViewController.swift in Sources */,
+				040B69B01D4C192500F25EE2 /* TipCalc.swift in Sources */,
+				040B699A1D4C0C1E00F25EE2 /* TipsyVC.swift in Sources */,
+				04915B991D4FEEA2005BC55F /* MaterialView.swift in Sources */,
 				040B69981D4C0C1E00F25EE2 /* AppDelegate.swift in Sources */,
 				040B69A01D4C0C1E00F25EE2 /* Tipsy.xcdatamodeld in Sources */,
+				04915B9C1D4FEF9A005BC55F /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +351,7 @@
 				040B69AB1D4C0C1E00F25EE2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
