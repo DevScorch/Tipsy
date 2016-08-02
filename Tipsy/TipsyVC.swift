@@ -46,6 +46,9 @@ class TipsyVC: UIViewController {
         splitBillValue()
         calcSplit()
         updateUI()
+        
+        let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        view.addGestureRecognizer(tap)
     }
 
     
@@ -110,6 +113,15 @@ class TipsyVC: UIViewController {
     func splitBillValue() {
         splitBillLabel.text = "SPLIT: \(Int(splitBillSLider.value))"
     }
+    
+    func dismissKeyboard() {
+
+        view.endEditing(true)
+    }
+    
+    
+    // MARK: Extensions
+    
     
 
 
