@@ -86,6 +86,7 @@ class TipsyVC: UIViewController {
     func updateUI() {
         tipAmountLabel.text = String(format: "$%0.2f", tipCalc.tipAMount)
         totalAmountLabel.text = String(format: "$%0.2f", tipCalc.totalAmount)
+        splitBillAmountLabel.text = String(format: "$%0.2f", tipCalc.totalAmount)
         splitBillAmountLabel.text = String(format: "$%0.2f", tipCalc.splitBillValue)
         
     }
