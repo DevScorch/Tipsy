@@ -93,7 +93,7 @@ class TipsyVC: UIViewController {
     
     func textFieldShouldReturn(_textField: UITextField) -> Bool {
         if _textField == billAmountTextField {
-            _textField.isFirstResponder()
+            _textField.isFirstResponder
             calcTip()
             calcSplit()
         }
